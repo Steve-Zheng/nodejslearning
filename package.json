@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Steve-Zheng/nodejslearning/issues"
   },
-  "homepage": "https://github.com/Steve-Zheng/nodejslearning#readme"
+  "homepage": "https://github.com/Steve-Zheng/nodejslearning#readme",
+  "dependencies": {
+    "formidable": "^1.2.2"
+  }
 }
