@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Steve-Zheng/nodejslearning#readme",
   "dependencies": {
-    "formidable": "^1.2.2"
+    "formidable": "^1.2.2",
+    "mongodb": "^3.6.4"
   }
 }

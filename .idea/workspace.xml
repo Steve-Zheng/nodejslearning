@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bedcf02-8dfb-4b7f-a30d-4482ef19ea1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloworld.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html_files/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_files/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_files/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_files/random_file.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld.js" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615816354237</updated>
       <workItem from="1615816355527" duration="1646000" />
+      <workItem from="1615818423173" duration="4252000" />
     </task>
     <servers />
   </component>
@@ -83,6 +88,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
