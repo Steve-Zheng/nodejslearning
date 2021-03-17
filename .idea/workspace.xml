@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bedcf02-8dfb-4b7f-a30d-4482ef19ea1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html_files/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html_files/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html_files/random_file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_files/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld.js" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -52,12 +50,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.express.js">
+    <configuration name="express.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="helloworld.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/helloworld.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.express.js" />
         <item itemvalue="Node.js.helloworld.js" />
       </list>
     </recent_temporary>
@@ -72,6 +74,7 @@
       <updated>1615816354237</updated>
       <workItem from="1615816355527" duration="1646000" />
       <workItem from="1615818423173" duration="4252000" />
+      <workItem from="1615993016075" duration="3281000" />
     </task>
     <servers />
   </component>
