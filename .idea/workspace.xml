@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bedcf02-8dfb-4b7f-a30d-4482ef19ea1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/express.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html_files/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/post_router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_files/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/express.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_files/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_files/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_files/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static_files/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_files/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_files/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_files/random_file.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_files/random_file.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_files/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_files/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -50,7 +57,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\nodejslearning" />
+    </key>
+  </component>
   <component name="RunManager" selected="Node.js.express.js">
+    <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/nodejslearning/html_files/register.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="express.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -60,6 +75,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.express.js" />
+        <item itemvalue="JavaScript Debug.register.html" />
         <item itemvalue="Node.js.helloworld.js" />
       </list>
     </recent_temporary>
@@ -75,6 +91,7 @@
       <workItem from="1615816355527" duration="1646000" />
       <workItem from="1615818423173" duration="4252000" />
       <workItem from="1615993016075" duration="3281000" />
+      <workItem from="1616158075765" duration="4684000" />
     </task>
     <servers />
   </component>

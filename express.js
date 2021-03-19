@@ -1,33 +1,22 @@
 const express = require('express');
-const bodyParser = require('body-parser');
-const MongoClient = require('mongodb').MongoClient;
+const post_router = require('./post_router');
+const file_router = require('./file_router');
 const app = express();
 
-const connectionString = 'mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false';
-MongoClient.connect(connectionString, {useNewUrlParser: true, useUnifiedTopology: true})
-    .then(client=>{
-        console.log('Connected to database.');
-        const db = client.db('test_database');
-        const loginCredentials = db.collection('login_credentials');
+const db = require('./database');
+const userModel = require('./userModel');
 
-        app.listen(8080,function(){
-            console.log('Listening on 8080.');
-        })
-
-        app.use(express.static('html_files'));
-        app.use(bodyParser.urlencoded({extended: true}));
-
-        app.get('/',(req,res)=>{
-            res.sendFile(__dirname+'/html_files/index.html');
-        })
-
-        app.post('/register',(req,res)=>{
-            loginCredentials.insertOne(req.body)
-                .then(result => {
-                    console.log(result);
-                })
-                .catch(error => console.error(error));
-        })
-
+db.then(()=>{
+    app.use(express.urlencoded({extended:true}));
+    //app.use(express.static('static_files'));
+    app.use(file_router);
+    app.use(post_router);
+    app.use(express.static('static_files'));
+    app.use((req,res)=>{
+        res.status(404).sendFile(__dirname+'/static_files/404.html');
     })
-    .catch(error=> console.error(error));
+}).catch((err)=>{
+    console.log('DB connection failed.');
+})
+
+app.listen(8080);
