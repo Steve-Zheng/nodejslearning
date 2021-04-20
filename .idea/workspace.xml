@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bedcf02-8dfb-4b7f-a30d-4482ef19ea1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post_router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_files/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/express.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_files/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_files/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_files/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static_files/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_files/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_files/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_files/random_file.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_files/random_file.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_files/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/static_files/register.html" afterDir="false" />
-    </list>
+    <list default="true" id="5bedcf02-8dfb-4b7f-a30d-4482ef19ea1b" name="Default Changelist" comment="Rewrite as separate files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,8 +78,16 @@
       <workItem from="1615816355527" duration="1646000" />
       <workItem from="1615818423173" duration="4252000" />
       <workItem from="1615993016075" duration="3281000" />
-      <workItem from="1616158075765" duration="4684000" />
+      <workItem from="1616158075765" duration="4771000" />
     </task>
+    <task id="LOCAL-00001" summary="Rewrite as separate files">
+      <created>1616162863772</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616162863772</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,5 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Rewrite as separate files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rewrite as separate files" />
   </component>
 </project>
