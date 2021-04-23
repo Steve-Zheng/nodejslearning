@@ -18,5 +18,7 @@ db.then(()=>{
 }).catch((err)=>{
     console.log('DB connection failed.');
 })
-
+//TODO: Login refine
+//TODO: Homepage
+//TODO: Integrate with flutter_learning
 app.listen(8080);
