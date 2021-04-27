@@ -9,6 +9,7 @@ const userModel = require('./userModel');
 db.then(()=>{
     app.use(express.urlencoded({extended:true}));
     //app.use(express.static('static_files'));
+    //TODO: Fix warnings
     app.use(file_router);
     app.use(post_router);
     app.use(express.static('static_files'));
